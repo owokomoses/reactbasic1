@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './components/Sample';
+import Calc from './calc';
+import ConditionalRendering from './components/ConditionalRendering';
+import UserInput from './components/UserInput';
+import GradeCalculator from './components/GradeCalculator';
+import Calc2 from './components/Calc2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Calc2/> */}
+      <GradeCalculator/>
     </div>
   );
 }
