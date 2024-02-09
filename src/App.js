@@ -6,12 +6,12 @@ import ConditionalRendering from './components/ConditionalRendering';
 import UserInput from './components/UserInput';
 import GradeCalculator from './components/GradeCalculator';
 import Calc2 from './components/Calc2';
+import Maps from './components/Maps';
 
 function App() {
   return (
     <div className="App">
-      {/* <Calc2/> */}
-      <GradeCalculator/>
+      <Maps/>
     </div>
   );
 }
